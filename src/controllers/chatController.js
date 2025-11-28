@@ -2,7 +2,7 @@ require('dotenv').config();
 const Conversation = require('../models/Conversation');
 const Message = require('../models/Message');
 const User = require('../models/User');
-const Models = require('../models/Models');
+const Models = require('../models/models');
 const { buildInputFromHistory } = require("../helpers/buildInputFromHistory");
 const OpenAI = require("openai");
 
