@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const Models = require('../models/Models');
+const Models = require('../models/models');
 
 exports.addModel = async (req, res) => {
     try {
